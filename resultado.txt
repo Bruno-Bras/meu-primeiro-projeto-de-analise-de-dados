@@ -1,0 +1,403 @@
+
+Código: 001
+Nome da disciplina: Introducao a Programacao de Computadores
+Quantidade de alunos: 47
+Percentual de alunos aprovados: 40.43%
+Média da turma: 4.74
+Quantidade de alunos com média acima da média da turma: 21
+Maior média da turma: 8.34
+Menor média da turma: 1.05
+
+Código: 002
+Nome da disciplina: Projeto e Analise de Algoritmos
+Quantidade de alunos: 41
+Percentual de alunos aprovados: 29.27%
+Média da turma: 4.87
+Quantidade de alunos com média acima da média da turma: 20
+Maior média da turma: 7.76
+Menor média da turma: 1.35
+
+Código: 003
+Nome da disciplina: Matematica Discreta
+Quantidade de alunos: 53
+Percentual de alunos aprovados: 60.38%
+Média da turma: 5.33
+Quantidade de alunos com média acima da média da turma: 30
+Maior média da turma: 8.93
+Menor média da turma: 1.58
+
+Código: 004
+Nome da disciplina: Sistemas Operacionais
+Quantidade de alunos: 39
+Percentual de alunos aprovados: 46.15%
+Média da turma: 4.94
+Quantidade de alunos com média acima da média da turma: 20
+Maior média da turma: 7.75
+Menor média da turma: 1.19
+
+Código: 005
+Nome da disciplina: Banco de Dados
+Quantidade de alunos: 55
+Percentual de alunos aprovados: 43.64%
+Média da turma: 4.94
+Quantidade de alunos com média acima da média da turma: 25
+Maior média da turma: 8.21
+Menor média da turma: 1.66
+
+Estatísticas do Aluno 20240169:
+Taxa de aprovação: 0.00%
+Melhor disciplina: Banco de Dados com média 4.63
+Pior disciplina: Introducao a Programacao de Computadores com média 4.15
+
+Estatísticas do Aluno 20240158:
+Taxa de aprovação: 66.67%
+Melhor disciplina: Matematica Discreta com média 6.93
+Pior disciplina: Banco de Dados com média 3.65
+
+Estatísticas do Aluno 20240108:
+Taxa de aprovação: 0.00%
+Melhor disciplina: Introducao a Programacao de Computadores com média 4.20
+Pior disciplina: Sistemas Operacionais com média 3.06
+
+Estatísticas do Aluno 20240117:
+Taxa de aprovação: 0.00%
+Melhor disciplina: Introducao a Programacao de Computadores com média 4.65
+Pior disciplina: Matematica Discreta com média 3.64
+
+Estatísticas do Aluno 20240118:
+Taxa de aprovação: 60.00%
+Melhor disciplina: Sistemas Operacionais com média 7.11
+Pior disciplina: Matematica Discreta com média 1.84
+
+Estatísticas do Aluno 20240101:
+Taxa de aprovação: 75.00%
+Melhor disciplina: Matematica Discreta com média 7.69
+Pior disciplina: Introducao a Programacao de Computadores com média 1.84
+
+Estatísticas do Aluno 20240104:
+Taxa de aprovação: 50.00%
+Melhor disciplina: Projeto e Analise de Algoritmos com média 5.39
+Pior disciplina: Introducao a Programacao de Computadores com média 3.07
+
+Estatísticas do Aluno 20240151:
+Taxa de aprovação: 80.00%
+Melhor disciplina: Matematica Discreta com média 7.14
+Pior disciplina: Introducao a Programacao de Computadores com média 4.00
+
+Estatísticas do Aluno 20240112:
+Taxa de aprovação: 0.00%
+Melhor disciplina: Sistemas Operacionais com média 4.71
+Pior disciplina: Introducao a Programacao de Computadores com média 4.01
+
+Estatísticas do Aluno 20240134:
+Taxa de aprovação: 66.67%
+Melhor disciplina: Matematica Discreta com média 6.53
+Pior disciplina: Banco de Dados com média 2.68
+
+Estatísticas do Aluno 20240137:
+Taxa de aprovação: 50.00%
+Melhor disciplina: Matematica Discreta com média 6.81
+Pior disciplina: Introducao a Programacao de Computadores com média 2.00
+
+Estatísticas do Aluno 20240121:
+Taxa de aprovação: 50.00%
+Melhor disciplina: Introducao a Programacao de Computadores com média 8.34
+Pior disciplina: Projeto e Analise de Algoritmos com média 3.20
+
+Estatísticas do Aluno 20240103:
+Taxa de aprovação: 66.67%
+Melhor disciplina: Projeto e Analise de Algoritmos com média 6.67
+Pior disciplina: Banco de Dados com média 4.67
+
+Estatísticas do Aluno 20240124:
+Taxa de aprovação: 100.00%
+Melhor disciplina: Matematica Discreta com média 8.93
+Pior disciplina: Sistemas Operacionais com média 5.13
+
+Estatísticas do Aluno 20240133:
+Taxa de aprovação: 50.00%
+Melhor disciplina: Introducao a Programacao de Computadores com média 7.69
+Pior disciplina: Matematica Discreta com média 3.64
+
+Estatísticas do Aluno 20240109:
+Taxa de aprovação: 33.33%
+Melhor disciplina: Introducao a Programacao de Computadores com média 5.78
+Pior disciplina: Sistemas Operacionais com média 1.19
+
+Estatísticas do Aluno 20240164:
+Taxa de aprovação: 75.00%
+Melhor disciplina: Introducao a Programacao de Computadores com média 7.81
+Pior disciplina: Banco de Dados com média 2.92
+
+Estatísticas do Aluno 20240105:
+Taxa de aprovação: 60.00%
+Melhor disciplina: Introducao a Programacao de Computadores com média 7.35
+Pior disciplina: Sistemas Operacionais com média 3.27
+
+Estatísticas do Aluno 20240147:
+Taxa de aprovação: 20.00%
+Melhor disciplina: Matematica Discreta com média 5.63
+Pior disciplina: Banco de Dados com média 2.55
+
+Estatísticas do Aluno 20240125:
+Taxa de aprovação: 50.00%
+Melhor disciplina: Banco de Dados com média 5.89
+Pior disciplina: Introducao a Programacao de Computadores com média 3.66
+
+Estatísticas do Aluno 20240167:
+Taxa de aprovação: 50.00%
+Melhor disciplina: Sistemas Operacionais com média 6.90
+Pior disciplina: Introducao a Programacao de Computadores com média 4.12
+
+Estatísticas do Aluno 20240115:
+Taxa de aprovação: 25.00%
+Melhor disciplina: Banco de Dados com média 5.73
+Pior disciplina: Sistemas Operacionais com média 2.95
+
+Estatísticas do Aluno 20240110:
+Taxa de aprovação: 100.00%
+Melhor disciplina: Matematica Discreta com média 7.86
+Pior disciplina: Introducao a Programacao de Computadores com média 5.48
+
+Estatísticas do Aluno 20240128:
+Taxa de aprovação: 40.00%
+Melhor disciplina: Matematica Discreta com média 8.47
+Pior disciplina: Introducao a Programacao de Computadores com média 2.98
+
+Estatísticas do Aluno 20240119:
+Taxa de aprovação: 33.33%
+Melhor disciplina: Sistemas Operacionais com média 6.96
+Pior disciplina: Banco de Dados com média 3.38
+
+Estatísticas do Aluno 20240106:
+Taxa de aprovação: 20.00%
+Melhor disciplina: Sistemas Operacionais com média 5.26
+Pior disciplina: Matematica Discreta com média 2.88
+
+Estatísticas do Aluno 20240116:
+Taxa de aprovação: 40.00%
+Melhor disciplina: Matematica Discreta com média 7.28
+Pior disciplina: Introducao a Programacao de Computadores com média 1.05
+
+Estatísticas do Aluno 20240165:
+Taxa de aprovação: 66.67%
+Melhor disciplina: Banco de Dados com média 6.94
+Pior disciplina: Matematica Discreta com média 2.59
+
+Estatísticas do Aluno 20240144:
+Taxa de aprovação: 75.00%
+Melhor disciplina: Banco de Dados com média 8.21
+Pior disciplina: Sistemas Operacionais com média 4.35
+
+Estatísticas do Aluno 20240142:
+Taxa de aprovação: 25.00%
+Melhor disciplina: Introducao a Programacao de Computadores com média 7.46
+Pior disciplina: Matematica Discreta com média 1.71
+
+Estatísticas do Aluno 20240113:
+Taxa de aprovação: 75.00%
+Melhor disciplina: Matematica Discreta com média 7.38
+Pior disciplina: Introducao a Programacao de Computadores com média 4.70
+
+Estatísticas do Aluno 20240170:
+Taxa de aprovação: 66.67%
+Melhor disciplina: Introducao a Programacao de Computadores com média 6.15
+Pior disciplina: Projeto e Analise de Algoritmos com média 4.31
+
+Estatísticas do Aluno 20240166:
+Taxa de aprovação: 50.00%
+Melhor disciplina: Matematica Discreta com média 5.92
+Pior disciplina: Banco de Dados com média 1.66
+
+Estatísticas do Aluno 20240161:
+Taxa de aprovação: 0.00%
+Melhor disciplina: Projeto e Analise de Algoritmos com média 4.06
+Pior disciplina: Introducao a Programacao de Computadores com média 1.91
+
+Estatísticas do Aluno 20240127:
+Taxa de aprovação: 50.00%
+Melhor disciplina: Sistemas Operacionais com média 6.50
+Pior disciplina: Matematica Discreta com média 3.28
+
+Estatísticas do Aluno 20240156:
+Taxa de aprovação: 60.00%
+Melhor disciplina: Projeto e Analise de Algoritmos com média 7.38
+Pior disciplina: Introducao a Programacao de Computadores com média 2.44
+
+Estatísticas do Aluno 20240122:
+Taxa de aprovação: 0.00%
+Melhor disciplina: Projeto e Analise de Algoritmos com média 4.67
+Pior disciplina: Introducao a Programacao de Computadores com média 3.52
+
+Estatísticas do Aluno 20240114:
+Taxa de aprovação: 0.00%
+Melhor disciplina: Banco de Dados com média 3.19
+Pior disciplina: Introducao a Programacao de Computadores com média 2.49
+
+Estatísticas do Aluno 20240102:
+Taxa de aprovação: 25.00%
+Melhor disciplina: Banco de Dados com média 5.07
+Pior disciplina: Projeto e Analise de Algoritmos com média 2.19
+
+Estatísticas do Aluno 20240153:
+Taxa de aprovação: 33.33%
+Melhor disciplina: Introducao a Programacao de Computadores com média 6.67
+Pior disciplina: Matematica Discreta com média 3.50
+
+Estatísticas do Aluno 20240111:
+Taxa de aprovação: 33.33%
+Melhor disciplina: Matematica Discreta com média 5.90
+Pior disciplina: Projeto e Analise de Algoritmos com média 3.93
+
+Estatísticas do Aluno 20240162:
+Taxa de aprovação: 33.33%
+Melhor disciplina: Matematica Discreta com média 6.05
+Pior disciplina: Introducao a Programacao de Computadores com média 4.25
+
+Estatísticas do Aluno 20240143:
+Taxa de aprovação: 50.00%
+Melhor disciplina: Projeto e Analise de Algoritmos com média 6.69
+Pior disciplina: Matematica Discreta com média 2.30
+
+Estatísticas do Aluno 20240139:
+Taxa de aprovação: 40.00%
+Melhor disciplina: Sistemas Operacionais com média 7.75
+Pior disciplina: Projeto e Analise de Algoritmos com média 1.50
+
+Estatísticas do Aluno 20240135:
+Taxa de aprovação: 25.00%
+Melhor disciplina: Introducao a Programacao de Computadores com média 5.66
+Pior disciplina: Matematica Discreta com média 2.44
+
+Estatísticas do Aluno 20240148:
+Taxa de aprovação: 0.00%
+Melhor disciplina: Banco de Dados com média 4.98
+Pior disciplina: Introducao a Programacao de Computadores com média 3.08
+
+Estatísticas do Aluno 20240141:
+Taxa de aprovação: 50.00%
+Melhor disciplina: Matematica Discreta com média 7.06
+Pior disciplina: Introducao a Programacao de Computadores com média 4.91
+
+Estatísticas do Aluno 20240132:
+Taxa de aprovação: 33.33%
+Melhor disciplina: Banco de Dados com média 7.39
+Pior disciplina: Projeto e Analise de Algoritmos com média 1.35
+
+Estatísticas do Aluno 20240146:
+Taxa de aprovação: 66.67%
+Melhor disciplina: Sistemas Operacionais com média 7.46
+Pior disciplina: Banco de Dados com média 3.42
+
+Estatísticas do Aluno 20240159:
+Taxa de aprovação: 66.67%
+Melhor disciplina: Matematica Discreta com média 7.78
+Pior disciplina: Projeto e Analise de Algoritmos com média 4.50
+
+Estatísticas do Aluno 20240138:
+Taxa de aprovação: 75.00%
+Melhor disciplina: Matematica Discreta com média 8.84
+Pior disciplina: Sistemas Operacionais com média 4.97
+
+Estatísticas do Aluno 20240130:
+Taxa de aprovação: 25.00%
+Melhor disciplina: Projeto e Analise de Algoritmos com média 6.07
+Pior disciplina: Sistemas Operacionais com média 3.80
+
+Estatísticas do Aluno 20240129:
+Taxa de aprovação: 0.00%
+Melhor disciplina: Projeto e Analise de Algoritmos com média 4.70
+Pior disciplina: Banco de Dados com média 2.49
+
+Estatísticas do Aluno 20240145:
+Taxa de aprovação: 50.00%
+Melhor disciplina: Matematica Discreta com média 8.48
+Pior disciplina: Sistemas Operacionais com média 2.88
+
+Estatísticas do Aluno 20240131:
+Taxa de aprovação: 100.00%
+Melhor disciplina: Projeto e Analise de Algoritmos com média 6.87
+Pior disciplina: Matematica Discreta com média 5.18
+
+Estatísticas do Aluno 20240136:
+Taxa de aprovação: 66.67%
+Melhor disciplina: Matematica Discreta com média 5.38
+Pior disciplina: Banco de Dados com média 4.23
+
+Estatísticas do Aluno 20240126:
+Taxa de aprovação: 0.00%
+Melhor disciplina: Projeto e Analise de Algoritmos com média 4.90
+Pior disciplina: Matematica Discreta com média 3.08
+
+Estatísticas do Aluno 20240157:
+Taxa de aprovação: 33.33%
+Melhor disciplina: Banco de Dados com média 7.13
+Pior disciplina: Projeto e Analise de Algoritmos com média 2.24
+
+Estatísticas do Aluno 20240140:
+Taxa de aprovação: 50.00%
+Melhor disciplina: Matematica Discreta com média 7.02
+Pior disciplina: Banco de Dados com média 3.36
+
+Estatísticas do Aluno 20240149:
+Taxa de aprovação: 100.00%
+Melhor disciplina: Sistemas Operacionais com média 7.57
+Pior disciplina: Matematica Discreta com média 7.12
+
+Estatísticas do Aluno 20240160:
+Taxa de aprovação: 100.00%
+Melhor disciplina: Matematica Discreta com média 6.06
+Pior disciplina: Matematica Discreta com média 6.06
+
+Estatísticas do Aluno 20240152:
+Taxa de aprovação: 66.67%
+Melhor disciplina: Banco de Dados com média 7.65
+Pior disciplina: Sistemas Operacionais com média 4.54
+
+Estatísticas do Aluno 20240154:
+Taxa de aprovação: 0.00%
+Melhor disciplina: Matematica Discreta com média 2.21
+Pior disciplina: Matematica Discreta com média 2.21
+
+Estatísticas do Aluno 20240150:
+Taxa de aprovação: 100.00%
+Melhor disciplina: Matematica Discreta com média 6.67
+Pior disciplina: Banco de Dados com média 5.60
+
+Estatísticas do Aluno 20240168:
+Taxa de aprovação: 33.33%
+Melhor disciplina: Matematica Discreta com média 7.93
+Pior disciplina: Sistemas Operacionais com média 3.27
+
+Estatísticas do Aluno 20240163:
+Taxa de aprovação: 100.00%
+Melhor disciplina: Banco de Dados com média 8.17
+Pior disciplina: Matematica Discreta com média 7.50
+
+Estatísticas do Aluno 20240107:
+Taxa de aprovação: 100.00%
+Melhor disciplina: Matematica Discreta com média 6.85
+Pior disciplina: Banco de Dados com média 6.14
+
+Estatísticas do Aluno 20240155:
+Taxa de aprovação: 50.00%
+Melhor disciplina: Sistemas Operacionais com média 5.17
+Pior disciplina: Banco de Dados com média 4.75
+
+Estatísticas do Aluno 20240123:
+Taxa de aprovação: 50.00%
+Melhor disciplina: Banco de Dados com média 6.70
+Pior disciplina: Sistemas Operacionais com média 3.80
+
+Estatísticas do Aluno 20240120:
+Taxa de aprovação: 100.00%
+Melhor disciplina: Banco de Dados com média 5.61
+Pior disciplina: Banco de Dados com média 5.61
+
+Quantidade de alunos matriculados em mais de 2 disciplinas: 56
+Disciplina com a menor taxa de aprovação: Projeto e Analise de Algoritmos com 29.27%
+Quantidade de alunos aprovados em todas as disciplinas: 9
+Percentual de alunos aprovados em todas as disciplinas: 12.86%
+Disciplina com a maior taxa de aprovação: Matematica Discreta com 60.38%
+Média global: 4.98
+Percentual de aprovação do professor: 44.68%
