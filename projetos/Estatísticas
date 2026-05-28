@@ -1,0 +1,139 @@
+import os
+import pandas as pd
+
+class Disciplina:
+    def __init__(self, caminho_arquivo):
+        self.caminho_arquivo = caminho_arquivo
+        self.codigo = ""
+        self.nome = ""
+        self.nota_minima = 0.0
+        self.pesos = []
+        self.df_alunos = pd.DataFrame()
+        self._processar_csv()
+
+    def _processar_csv(self):
+        with open(self.caminho_arquivo, 'r', encoding='utf-8') as f:
+            linha0 = f.readline().strip().split(',')
+            linha1 = f.readline().strip().split(',')
+
+        self.codigo = Server = linha0[0]
+        self.nome = ' '.join(linha0[1:]).strip()
+        self.nota_minima = float(linha1[0])
+        self.pesos = [float(p) for p in linha1[1:4] if p]
+
+        self.df_alunos = pd.read_csv(
+            self.caminho_arquivo,
+            skiprows=2,
+            names=['matricula', 'nota1', 'nota2', 'nota3'],
+            encoding='utf-8'
+        )
+
+        soma_pesos = sum(self.pesos)
+        self.df_alunos['media'] = (
+            self.df_alunos['nota1'] * self.pesos[0] +
+            self.df_alunos['nota2'] * self.pesos[1] +
+            self.df_alunos['nota3'] * self.pesos[2]
+        ) / soma_pesos
+
+        self.df_alunos['aprovado'] = self.df_alunos['media'] >= self.nota_minima
+        self.df_alunos['disciplina'] = self.nome
+        self.df_alunos['codigo'] = self.codigo
+
+    def obter_estatisticas_locais(self):
+        qtd_alunos = len(self.df_alunos)
+        if qtd_alunos == 0:
+            return {}
+
+        media_turma = self.df_alunos['media'].mean()
+        return {
+            'codigo': self.codigo,
+            'nome': self.nome,
+            'qtd_alunos': qtd_alunos,
+            'percentual_aprovados': (self.df_alunos['aprovado'].sum() / qtd_alunos) * 100,
+            'media_turma': media_turma,
+            'alunos_acima_media': int((self.df_alunos['media'] > media_turma).sum()),
+            'maior_media': self.df_alunos['media'].max(),
+            'menor_media': self.df_alunos['media'].min()
+        }
+
+
+class AnalisadorAcademico:
+    def __init__(self, caminho_pasta):
+        self.caminho_pasta = caminho_pasta
+        self.disciplinas = []
+        self.df_global = pd.DataFrame()
+
+    def carregar_dados(self):
+        arquivos = [f for f in os.listdir(self.caminho_pasta) if f.endswith('.csv')]
+        list_dfs = []
+
+        for arquivo in arquivos:
+            caminho_completo = os.path.join(self.caminho_pasta, arquivo)
+            disc = Disciplina(caminho_completo)
+            self.disciplinas.append(disc)
+            list_dfs.append(disc.df_alunos)
+
+        if list_dfs:
+            self.df_global = pd.concat(list_dfs, ignore_index=True)
+
+    def gerar_relatorio(self, nome_saida='resultado.txt'):
+        if self.df_global.empty:
+            print("Nenhum dado populado para gerar relatório.")
+            return
+
+        with open(nome_saida, 'w', encoding='utf-8') as f:
+            for disc in self.disciplinas:
+                stats = disc.obter_estatisticas_locais()
+                if not stats:
+                    continue
+                f.write(f"\nCódigo: {stats['codigo']}\n")
+                f.write(f"Nome da disciplina: {stats['nome']}\n")
+                f.write(f"Quantidade de alunos: {stats['qtd_alunos']}\n")
+                f.write(f"Percentual de alunos aprovados: {stats['percentual_aprovados']:.2f}%\n")
+                f.write(f"Média da turma: {stats['media_turma']:.2f}\n")
+                f.write(f"Quantidade de alunos com média acima da média da turma: {stats['alunos_acima_media']}\n")
+                f.write(f"Maior média da turma: {stats['maior_media']:.2f}\n")
+                f.write(f"Menor média da turma: {stats['menor_media']:.2f}\n")
+
+            for matricula, grupo in self.df_global.groupby('matricula'):
+                total_disc = len(grupo)
+                taxa_aprovacao = (grupo['aprovado'].sum() / total_disc) * 100
+
+                id_maior = grupo['media'].idxmax()
+                id_menor = grupo['media'].idxmin()
+
+                f.write(f"\nEstatísticas do Aluno {matricula}:\n")
+                f.write(f"Taxa de aprovação: {taxa_aprovacao:.2f}%\n")
+                f.write(f"Melhor disciplina: {grupo.loc[id_maior, 'disciplina']} com média {grupo.loc[id_maior, 'media']:.2f}\n")
+                f.write(f"Pior disciplina: {grupo.loc[id_menor, 'disciplina']} com média {grupo.loc[id_menor, 'media']:.2f}\n")
+
+            contagem_matriculas = self.df_global['matricula'].value_counts()
+            alunos_mais_de_duas = int((contagem_matriculas > 2).sum())
+
+            taxas_por_disciplina = self.df_global.groupby('disciplina')['aprovado'].mean() * 100
+
+            total_aprovacoes_aluno = self.df_global.groupby('matricula')['aprovado'].sum()
+            total_cursadas_aluno = self.df_global.groupby('matricula')['disciplina'].count()
+            alunos_aprovados_todas = int((total_aprovacoes_aluno == total_cursadas_aluno).sum())
+            pct_aprovados_todas = (alunos_aprovados_todas / len(total_cursadas_aluno)) * 100
+
+            media_global = self.df_global['media'].mean()
+            percentual_aprovacao_global = (self.df_global['aprovado'].sum() / len(self.df_global)) * 100
+
+            f.write(f"\nQuantidade de alunos matriculados em mais de 2 disciplinas: {alunos_mais_de_duas}\n")
+            f.write(f"Disciplina com a menor taxa de aprovação: {taxas_por_disciplina.idxmin()} com {taxas_por_disciplina.min():.2f}%\n")
+            f.write(f"Quantidade de alunos aprovados em todas as disciplinas: {alunos_aprovados_todas}\n")
+            f.write(f"Percentual de alunos aprovados em todas as disciplinas: {pct_aprovados_todas:.2f}%\n")
+            f.write(f"Disciplina com a maior taxa de aprovação: {taxas_por_disciplina.idxmax()} com {taxas_por_disciplina.max():.2f}%\n")
+            f.write(f"Média global: {media_global:.2f}\n")
+            f.write(f"Percentual de aprovação do professor: {percentual_aprovacao_global:.2f}%\n")
+
+
+if __name__ == "__main__":
+    # O .strip() duplo limpa espaços e remove as aspas extras se você colar o caminho
+    caminho = input("digite o caminho da pasta para lê-lo: ").strip().strip('"').strip("'")
+
+    analisador = AnalisadorAcademico(caminho)
+    analisador.carregar_dados()
+    analisador.gerar_relatorio()
+    print("Relatório 'resultado.txt' gerado com sucesso!")
